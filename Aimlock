@@ -1,1 +1,47 @@
 
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.Position = UDim2.new(0.344587892, 0, 0.232193738, 0)
+Frame.Size = UDim2.new(0, 313, 0, 375)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.025559105, 0, 0.0160000008, 0)
+TextLabel.Size = UDim2.new(0, 298, 0, 292)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Join the discord to buy the new aimbot"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.239616618, 0, 0.794666648, 0)
+TextLabel_2.Size = UDim2.new(0, 231, 0, 66)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "g6H8gdFDJK"
+TextLabel_2.TextColor3 = Color3.fromRGB(85, 85, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.025559105, 0, 0.794666648, 0)
+ImageLabel.Size = UDim2.new(0, 67, 0, 66)
+ImageLabel.Image = "rbxassetid://4832957972"
+
+
