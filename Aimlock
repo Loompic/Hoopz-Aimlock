@@ -44,6 +44,6 @@ ImageLabel.Position = UDim2.new(0.025559105, 0, 0.794666648, 0)
 ImageLabel.Size = UDim2.new(0, 67, 0, 66)
 ImageLabel.Image = "rbxassetid://4832957972"
 
-wait(8)
+wait(20)
 
 ScreenGui:Destroy()
